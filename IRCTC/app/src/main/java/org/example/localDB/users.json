@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Anikita Anand",
+
+        "password" : "12345",
+
+        "hashedPassword" : "abcde",
+
+        "bookedTkt" : [
+        {
+            "tktID" : "a123b",
+
+            "source" : "New Delhi",
+
+            "destination" : "Gorakhpur",
+
+            "dateOfTravel" : "2025-08-04T22-00-00Z",
+
+            "train" : [
+            {
+                "trainNum" : "12530",
+
+                "trainID" : "abc30",
+
+                "seats" : [
+                    [0,0,0,0,0],
+                    [0,0,0,0,0],
+                    [0,0,0,0,0],
+                    [0,0,0,0,0],
+                    [0,0,0,0,0]
+                ],
+
+                "Time" : "T22-00-00Z",
+
+                "stations" : {
+                    "New Delhi" : "22-30-00",
+
+                    "Kanpur" : "01-30-00",
+
+                    "Lucknow" : "03-15-00",
+
+                    "Gonda" : "06-00-00",
+
+                    "Gorakhpur" : "09-20-00"
+                }
+
+            }
+            ]
+        }
+       ]
+    }
+]
